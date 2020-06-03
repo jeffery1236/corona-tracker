@@ -1,0 +1,15 @@
+.chart {
+   padding: 0 20px;
+   margin-top: 50px;
+   width: 85%;
+   display: flex;
+   justify-content: center;
+}
+
+@media (max-width: 770px) {
+   .chart {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+}
